@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 const TestCors = () => {
   useEffect(() => {
-    fetch("https://apps.orecon.co.id/api/method/frappe.auth.get_logged_user", {
+    fetch("https://oims.orecon.co.id/api/method/frappe.auth.get_logged_user", {
       method: "GET",
       credentials: "include", // penting supaya cookie dikirim
       headers: {
