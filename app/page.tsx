@@ -8,6 +8,7 @@ import MainLayout from "@/components/MainLayout";
 import DataGrid from "@/components/roster/DataGrid";
 import { CellClassParams, AllCommunityModule, ModuleRegistry, ColDef } from "ag-grid-community";
 import { AgGridReact } from "ag-grid-react";
+import TestCors from "@/components/TestCors";
 
 // Daftarkan modul-modul yang dibutuhkan
 ModuleRegistry.registerModules([AllCommunityModule]); // Daftarkan SelectEditorModule juga
@@ -146,6 +147,7 @@ const GridExample = () => {
 
   return (
     <MainLayout title="Roster Cuti" desktopOnly>
+      <TestCors />
       <div className="space-y-5">
 
         {/* TABLE */}
