@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root {
+  @apply text-sm text-gray-700;
+}
+
+button {
+  @apply cursor-pointer;
+}
